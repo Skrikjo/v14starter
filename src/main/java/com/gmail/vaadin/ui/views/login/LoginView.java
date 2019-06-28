@@ -30,10 +30,10 @@ public class LoginView extends LoginOverlay
 			"admin@vaadin.com + admin\n" + "barista@vaadin.com + barista");
 		i18n.setAdditionalInformation(null);
 		i18n.setForm(new LoginI18n.Form());
-		i18n.getForm().setSubmit("Sign in");
+		i18n.getForm().setSubmit("Sign in now");
 		i18n.getForm().setTitle("Sign in");
-		i18n.getForm().setUsername("Email");
-		i18n.getForm().setPassword("Password");
+		i18n.getForm().setUsername("Your Email");
+		i18n.getForm().setPassword("Your Password");
 		setI18n(i18n);
 		setForgotPasswordButtonVisible(false);
 		setAction("login");
